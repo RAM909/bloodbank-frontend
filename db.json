@@ -1,0 +1,32 @@
+{
+    "patient": [
+        {
+            "id": 1,
+            "bloodgrp": "A-",
+            "Rh": "464",
+            "DOC": "13 sep 2023",
+            "days": 10,
+            "DOE": "21 jan 2024",
+            "Quantity": 2,
+            "name": "rahul daman",
+            "age": 55,
+            "gender": "male",
+            "weight": 99,
+            "number": 7676598788
+        },
+        {
+            "id": 2,
+            "bloodgrp": "B-",
+            "Rh": "400",
+            "DOC": "30 july 2023",
+            "days": 10,
+            "DOE": "30 dec 2024",
+            "Quantity": 2,
+            "name": "Ricky Ponting",
+            "age": 20,
+            "gender": "male",
+            "weight": 44,
+            "number": 9090898788
+        }
+    ]
+}

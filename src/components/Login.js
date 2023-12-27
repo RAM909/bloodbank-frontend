@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react"
 import axios from "axios"
 import { useNavigate, Link } from "react-router-dom"
-import "./Login.css";
+import "../Login.css";
 const suffix = "hos.med.in";
 const end = "gmail.com";
 const Login_api = process.env.REACT_APP_LOGIN_API;

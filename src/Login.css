@@ -1,0 +1,55 @@
+.login {
+    max-width: 400px;
+    margin: 50px auto;
+    /* Center the login box horizontally and provide some top margin */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin: 10px 0;
+    /* Adjust vertical margin */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Media Query for Tablets and Larger Phones */
+@media (max-width: 768px) {
+    .login {
+        max-width: 100%;
+        /* Adjust width to fit smaller screens */
+        margin: 30px auto;
+        /* Center and provide some top margin */
+    }
+}
+
+/* Media Query for Smaller Phones */
+@media (max-width: 480px) {
+    .login {
+        margin: 20px auto;
+        /* Center and provide less top margin */
+    }
+}
